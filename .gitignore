@@ -2,6 +2,8 @@
 /*
 !/.gitignore
 !/.gitattributes
+!/.github/
+!/LICENSE
 !/배포/
 
 # 배포 폴더 안에서도 빌드 산출물/캐시는 제외 (zip은 GitHub Releases에 첨부)
