@@ -1,0 +1,10 @@
+# 배포 폴더만 저장소에 올린다. 나머지(모델, venv, ComfyUI, 출력물, 로그 등)는 전부 제외.
+/*
+!/.gitignore
+!/.gitattributes
+!/배포/
+
+# 배포 폴더 안에서도 빌드 산출물/캐시는 제외 (zip은 GitHub Releases에 첨부)
+/배포/*.zip
+__pycache__/
+*.pyc

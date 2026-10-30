@@ -1,0 +1,35 @@
+{
+ "prompt": {
+  "1": {
+   "class_type": "CLIPLoader",
+   "inputs": {
+    "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+    "type": "krea2",
+    "device": "default"
+   }
+  },
+  "2": {
+   "class_type": "TextGenerate",
+   "inputs": {
+    "clip": [
+     "1",
+     0
+    ],
+    "prompt": "<|im_start|>system\nINSTRUCTION<|im_end|>\n<|im_start|>user\nUSER TEXT<|im_end|>\n<|im_start|>assistant\n",
+    "max_length": 512,
+    "sampling_mode": "off",
+    "thinking": false,
+    "use_default_template": true
+   }
+  },
+  "3": {
+   "class_type": "PreviewAny",
+   "inputs": {
+    "source": [
+     "2",
+     0
+    ]
+   }
+  }
+ }
+}

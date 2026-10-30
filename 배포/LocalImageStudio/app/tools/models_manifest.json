@@ -1,0 +1,209 @@
+{
+ "_comment": "Model files for the local image app. sha256 = Hugging Face LFS oid at the pinned revision.",
+ "files": [
+  {
+   "group": "anima",
+   "repo": "circlestone-labs/Anima",
+   "revision": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+   "path": "split_files/diffusion_models/anima-turbo-v1.1.safetensors",
+   "dest": "diffusion_models/anima-turbo-v1.1.safetensors",
+   "size": 4182230656,
+   "sha256": "fba11953276b57edf59d1dc4f1857ac05aa079c56f982b4d7c20298d57d3f7eb"
+  },
+  {
+   "group": "anima",
+   "repo": "circlestone-labs/Anima",
+   "revision": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+   "path": "split_files/diffusion_models/anima-aesthetic-v1.1.safetensors",
+   "dest": "diffusion_models/anima-aesthetic-v1.1.safetensors",
+   "size": 4182230656,
+   "sha256": "3c1868387a3a1ff504bbb87c33678321965ead381fcf87afbd0264daa600c082"
+  },
+  {
+   "group": "anima",
+   "repo": "circlestone-labs/Anima",
+   "revision": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+   "path": "split_files/text_encoders/qwen_3_06b_base.safetensors",
+   "dest": "text_encoders/qwen_3_06b_base.safetensors",
+   "size": 1192135096,
+   "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+  },
+  {
+   "group": "anima,krea2",
+   "repo": "circlestone-labs/Anima",
+   "revision": "f973fc41ec7545364ac9776c2440285f43ff2a30",
+   "path": "split_files/vae/qwen_image_vae.safetensors",
+   "dest": "vae/qwen_image_vae.safetensors",
+   "size": 253806246,
+   "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f"
+  },
+  {
+   "group": "krea2",
+   "repo": "Comfy-Org/Krea-2",
+   "revision": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
+   "path": "diffusion_models/krea2_turbo_int8_convrot.safetensors",
+   "dest": "diffusion_models/krea2_turbo_int8_convrot.safetensors",
+   "size": 13492686496,
+   "sha256": "8e4eeda70dd5037ab1ba2bef6b417f9f901e26093117cf397f741fc1fdaaf3f1"
+  },
+  {
+   "group": "krea2",
+   "repo": "Comfy-Org/Krea-2",
+   "revision": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
+   "path": "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+   "dest": "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+   "size": 5242467968,
+   "sha256": "54bd5144df0bbc25dd6ccadfcb826b521445a1b06ae5a42570bdd2974ca87094"
+  },
+  {
+   "group": "krea2",
+   "repo": "Comfy-Org/Krea-2",
+   "revision": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
+   "path": "loras/krea2_style_reference.safetensors",
+   "dest": "loras/krea2_style_reference.safetensors",
+   "size": 457111760,
+   "sha256": "f50df5a9e62e4be8aa926a63dd5bb1a64770c4004f763c1208007ae13daa82b8"
+  },
+  {
+   "group": "qwen21",
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "revision": "a8342359c61979b06a8dafb1a47991fe1f30e994",
+   "path": "diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+   "dest": "diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+   "size": 7256787829,
+   "sha256": "8144a0182964aa8403ad6dbc011db837304167d235161b9aabaa8532e967314c"
+  },
+  {
+   "group": "qwen21",
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "revision": "a8342359c61979b06a8dafb1a47991fe1f30e994",
+   "path": "text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+   "dest": "text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+   "size": 9350798360,
+   "sha256": "8bfd0f6e12abf2d2d697ecc888e5e90b0d6741d6708f05799f53afa560452e8f"
+  },
+  {
+   "group": "qwen21",
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "revision": "a8342359c61979b06a8dafb1a47991fe1f30e994",
+   "path": "vae/qwen_image_2.1_vae_bf16.safetensors",
+   "dest": "vae/qwen_image_2.1_vae_bf16.safetensors",
+   "size": 675509688,
+   "sha256": "bb21f7473051e1ac368515dd3f2e15cd44d7a11748ee8823e1ddca3e4876b7c9"
+  },
+  {
+   "group": "qwen21_base",
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "revision": "a8342359c61979b06a8dafb1a47991fe1f30e994",
+   "path": "diffusion_models/qwen_image_2.1_int8_convrot.safetensors",
+   "dest": "diffusion_models/qwen_image_2.1_int8_convrot.safetensors",
+   "size": 7256783064,
+   "sha256": "cb74113cb03faecd79611b01fd7fd642f0aa60d6f0b95086abee214d75eaa57d"
+  },
+  {
+   "group": "sdxl",
+   "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+   "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+   "path": "sd_xl_base_1.0.safetensors",
+   "dest": "checkpoints/sd_xl_base_1.0.safetensors",
+   "size": 6938078334,
+   "sha256": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+  },
+  {
+   "group": "sd35_medium",
+   "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+   "revision": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
+   "path": "sd3.5_medium_incl_clips_t5xxlfp8scaled.safetensors",
+   "dest": "checkpoints/sd3.5_medium_incl_clips_t5xxlfp8scaled.safetensors",
+   "size": 11638004202,
+   "sha256": "1778e8857679042c176c21cd8a0da7b29bded68be018557477f84419df79bacf"
+  },
+  {
+   "group": "sd35_large",
+   "repo": "Comfy-Org/stable-diffusion-3.5-fp8",
+   "revision": "934251d1e6168bcb45a069abc5bd5cdd5f8fea00",
+   "path": "sd3.5_large_fp8_scaled.safetensors",
+   "dest": "checkpoints/sd3.5_large_fp8_scaled.safetensors",
+   "size": 14934922866,
+   "sha256": "5ad94d6f951556b1ab6b75930fd4effbafaf3130fe9df440e7f2d05a220dd1be"
+  },
+  {
+   "group": "sdxl",
+   "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+   "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+   "path": "sd_xl_offset_example-lora_1.0.safetensors",
+   "dest": "loras/sd_xl_offset_example-lora_1.0.safetensors",
+   "size": 49553604,
+   "sha256": "4852686128f953d0277d0793e2f0335352f96a919c9c16a09787d77f55cbdf6f"
+  },
+  {
+   "group": "moss",
+   "repo": "Comfy-Org/MOSS-Image",
+   "revision": "530a4c94f92c35ef6818b1b035a983fe9dcf5f54",
+   "path": "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+   "dest": "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+   "size": 5413698958,
+   "sha256": "b4d1475bc7eeffd7b809e82ea13a1fba1fb85c4e18365af3813722faa5c0fe4f"
+  },
+  {
+   "group": "moss",
+   "repo": "Comfy-Org/MOSS-Image",
+   "revision": "530a4c94f92c35ef6818b1b035a983fe9dcf5f54",
+   "path": "text_encoders/qwen3.5_9b_w4a8_gptq.safetensors",
+   "dest": "text_encoders/qwen3.5_9b_w4a8_gptq.safetensors",
+   "size": 7343591088,
+   "sha256": "4cc6a1543ad2061806da46f35f90cadb4801dcba246c44782cf42ec0feb6407c"
+  },
+  {
+   "group": "moss",
+   "repo": "Comfy-Org/MOSS-Image",
+   "revision": "530a4c94f92c35ef6818b1b035a983fe9dcf5f54",
+   "path": "vae/flux2-vae_small.safetensors",
+   "dest": "vae/flux2-vae_small.safetensors",
+   "size": 249521340,
+   "sha256": "d8d52ba036475f5fb07c8b435e176d3d97ebfa82f0d1a1c317f9cc1e25bd013b"
+  }
+ ],
+ "groups": {
+  "anima": {
+   "label": "Anima (애니·일러스트, Turbo+Aesthetic)",
+   "license": "CircleStone Labs Non-Commercial License (모델 비상업 전용)",
+   "license_url": "https://huggingface.co/circlestone-labs/Anima"
+  },
+  "krea2": {
+   "label": "Krea 2 Turbo (INT8, 스타일 참조 LoRA 포함)",
+   "license": "Krea 2 Community License (연매출 100만 달러 미만 상업 가능, 사용자는 콘텐츠 필터 조치 의무)",
+   "license_url": "https://www.krea.ai/krea-2-licensing"
+  },
+  "qwen21": {
+   "label": "Qwen-Image 2.1 Turbo (INT8, 편집·참조 포함)",
+   "license": "Qwen Research License (연구·비상업 전용)",
+   "license_url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+  },
+  "qwen21_base": {
+   "label": "Qwen-Image 2.1 Base (고품질 프리셋용, 선택)",
+   "license": "Qwen Research License (연구·비상업 전용)",
+   "license_url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+  },
+  "sdxl": {
+   "label": "Stable Diffusion XL Base 1.0 (내 SDXL/SD1.5 체크포인트도 사용 가능)",
+   "license": "CreativeML Open RAIL++-M (상업 사용 가능, 사용 제한 조항 준수)",
+   "license_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md"
+  },
+  "sd35_medium": {
+   "label": "Stable Diffusion 3.5 Medium (텍스트 인코더 포함)",
+   "license": "Stability AI Community License (연매출 100만 달러 미만 상업 가능)",
+   "license_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md"
+  },
+  "sd35_large": {
+   "label": "Stable Diffusion 3.5 Large FP8 (텍스트 인코더 포함, 고품질·느림)",
+   "license": "Stability AI Community License (연매출 100만 달러 미만 상업 가능)",
+   "license_url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md"
+  },
+  "moss": {
+   "label": "MOSS-Image SFT (INT8, Qwen3.5 9B 텍스트 인코더, ComfyUI 0.42+ 필요)",
+   "license": "Apache-2.0 (상업 사용 가능)",
+   "license_url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+  }
+ }
+}
